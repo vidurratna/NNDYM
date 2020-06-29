@@ -3,3 +3,56 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+@import "./animation.scss";
+
+.height-60-screen{
+    min-height: 250px;
+    height: 60vmax;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.fade-in {
+	animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-out {
+	animation: fade-out 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-bottom {
+      animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+
+.h-128{
+    height: 32rem;
+}
