@@ -1,5 +1,5 @@
 <?php ?>
-<div id="search-block" class="bg-white hidden w-full h-screen fixed top-0 left-0 flex items-center justify-center border-nndym-blue border-8">
+<div id="search-block" class="bg-white hidden z-50 w-full h-screen fixed top-0 left-0 flex items-center justify-center border-nndym-blue border-8">
     <a id="search-block-close" class="fixed top-0 right-0 m-8 text-black hover:text-nndym-blue text-3xl transform ease-in-out duration-300"><i class="fas fa-times"></i></a>
     <div class="w-full p-8 flex-col flex items-center justify-center">
     <form class="w-full" method="get" id="searchform" action="<?php bloginfo('url'); ?>">

@@ -20,18 +20,19 @@ module.exports = {
            '270': '270deg',
           },
     extend: {
-      // gradients: theme => ({
-      //   'primary-lite': [theme('colors.primary'),theme('colors.primary-lite')],
-      //   'primary-lite-h': [theme('colors.primary'),theme('colors.primary')],
-      //   'hero-cover': ['#ffffffad','#ffffff00'],
-      //   'page-cover': ['#ffffff','#ffffff00']
-      // }),
+      gradients: theme => ({
+        // 'primary-lite': [theme('colors.primary'),theme('colors.primary-lite')],
+        // 'primary-lite-h': [theme('colors.primary'),theme('colors.primary')],
+        // 'hero-cover': ['#ffffffad','#ffffff00'],
+        'thumbnail-cover': ['#24C6DC','#514A9D']
+      }),
       fontFamily:{
         'roboto' : ['Roboto', 'sans-serif'],
         'montserrat' : ['Montserrat', 'sans-serif']
       },
       colors:{
         'nndym-blue': '#00ABDF',
+        'nndym-blue-alt': '#004B63'
       }
     },
   },

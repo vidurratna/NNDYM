@@ -1,6 +1,6 @@
 <?php
 ?>
-<div data-aos="fade-down" data-aos-duration="800" data-aos-once="true"  data-aos-delay="400" id="header-menu" class="bg-nndym-blue w-full">
+<div data-aos="fade-in" data-aos-duration="800" data-aos-once="true"  data-aos-delay="400" id="header-menu" class="bg-nndym-blue w-full z-40">
     <div class="w-11/12 m-auto h-16  ">
         <div class="md:flex justify-between items-center hidden h-full">
             <?php 

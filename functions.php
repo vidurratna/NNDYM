@@ -21,6 +21,10 @@ function nndym_theme_support() {
 	//Set post thumbnail size.
 	//set_post_thumbnail_size( 1200, 9999 );
 
+	add_image_size( 'nndym-home-post-large', 800, 500 );
+	add_image_size( 'nndym-home-post-small', 500, 300 );
+	add_image_size( 'nndym-page', 1200, 1200 );
+
 	// Custom logo.
 	// $logo_width  = 120;
 	// $logo_height = 90;
@@ -143,3 +147,20 @@ function isso_register_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'isso_register_scripts' );
+
+require get_template_directory() . '/inc/theme-settings.php';
+
+
+if (!function_exists('dd')) {
+    function dd($data)
+    {
+        ini_set("highlight.comment", "#969896; font-style: italic");
+        ini_set("highlight.default", "#FFFFFF");
+        ini_set("highlight.html", "#D16568");
+        ini_set("highlight.keyword", "#7FA3BC; font-weight: bold");
+        ini_set("highlight.string", "#F2C47E");
+        $output = highlight_string("<?php\n\n" . var_export($data, true), true);
+        echo "<div style=\"background-color: #1C1E21; padding: 1rem\">{$output}</div>";
+        die();
+    }
+}

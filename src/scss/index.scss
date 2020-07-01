@@ -53,6 +53,41 @@
       animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   }
 
-.h-128{
+
+.img-hover {
+  &:hover{
+    img{
+      transform: scale(1.2);
+    }
+  }
+}
+
+.h-post-cover{
+  height: auto;
+}
+
+
+.h-page-cover{
+  height: 400px;
+}
+
+.page-fix{
+  top:-70px;
+}
+
+.breadcrumb_last{
+  color: #c53030;
+}
+
+
+@media (min-width: 768px) {
+  .h-post-cover{
+    min-height: 67vmin;
     height: 32rem;
+  }
+
+  .h-page-cover{
+    min-height: calc(100vh - 340px);
+    height: 32rem;
+  }
 }
