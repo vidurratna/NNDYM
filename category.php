@@ -9,7 +9,7 @@
     <h1 class="fade-in-bottom uppercase text-red-700 text-3xl md:text-4xl lg:text-5xl font-medium"><?php single_cat_title( ); ?></h1>
     <div class="my-8">
         <?php if(have_posts(  )) : ?>
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid md:grid-cols-4 gap-4">
                 <?php  while (have_posts()) : the_post(); ?>
                 <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" data-aos-delay="<?php echo $count ?>">
                     <?php 
