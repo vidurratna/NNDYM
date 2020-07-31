@@ -15,7 +15,7 @@ get_template_part('template-parts/content/thumbnail/page' );
     <?php 
         if(! is_page( )){
             ?>
-                <a class="fade-in-bottom text-sm text-gray-500 hover:text-red-700  md:text-base transition ease-in-out duration-200" href="<?php echo get_the_author_meta( 'user_url' ) ?>"><i class="fas fa-user mr-2"></i>by <?php echo get_the_author_meta( 'display_name' ) ?></a>
+                <a class="fade-in-bottom text-sm text-gray-500 hover:text-red-700  md:text-base transition ease-in-out duration-200" href="<?php echo get_home_url( ).'/author/'. get_the_author_meta( 'user_login' ) ?>"><i class="fas fa-user mr-2"></i>by <?php echo get_the_author_meta( 'display_name' ) ?></a>
                     <a class="fade-in-bottom text-sm text-gray-500 hover:text-red-700  md:text-base ml-4 transition ease-in-out duration-200" href="<?php echo get_day_link( get_the_date( 'Y' ), get_the_date( 'm' ), get_the_date( 'd' )) ?>"><i class="fas fa-calendar-day mr-2"></i><?php echo get_the_date( 'Y/m/d' ) ?> </a>
             <?php
         }
