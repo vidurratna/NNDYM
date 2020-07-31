@@ -21,12 +21,12 @@
                     global $thumbnailType;
 
                     if($count == 0){
-                        $thumbnailType = 'nndym-home-post-large';
+                        get_template_part('template-parts/content/thumbnail/home', 'large' );
                     } else {
-                        $thumbnailType = 'nndym-home-post-small';
+                        get_template_part('template-parts/content/thumbnail/post', 'small' );
                     }
 
-                    get_template_part('template-parts/content/thumbnail' );
+                    
                 ?>
                 
                 <div class="absolute bottom-0 left-0 h-full w-full bg-black opacity-50"></div>

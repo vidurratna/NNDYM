@@ -13,14 +13,7 @@
                 <?php  while (have_posts()) : the_post(); ?>
                 <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" data-aos-delay="<?php echo $count ?>">
                     <?php 
-
-                    global $thumbnailType;
-
-                    $thumbnailType = 'nndym-home-post-small';
-
-
-                    get_template_part('template-parts/content/thumbnail' , 'mini' );
-
+                    get_template_part('template-parts/content/thumbnail/post', 'smallmini' );
                     ?>
                 <div class="my-4">
                     <a href="<?php echo esc_url( get_permalink() ) ?>">

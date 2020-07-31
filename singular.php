@@ -2,13 +2,7 @@
 
 <?php 
 
-global $thumbnailType;
-
-$thumbnailType = 'nndym-page';
-
-
-get_template_part('template-parts/content/thumbnail' , 'page' );
-
+get_template_part('template-parts/content/thumbnail/page' );
 ?>
 
 <div class="w-11/12 m-auto relative bg-white page-fix shadow sm:shadow-md md:shadow-lg lg:shadow-xl p-4 md:p-8">
