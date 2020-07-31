@@ -24,7 +24,7 @@
     ?>
         <div class="md:grid grid-cols-3 gap-3 my-4">
             <?php  while ($query->have_posts()) : $query->the_post(); ?>
-                <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" data-aos-delay="<?php echo $count ?>">
+                <div onClick="handleURL('<?php echo esc_url( get_permalink() ) ?>')" class="cursor-pointer" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" data-aos-delay="<?php echo $count ?>">
                     <?php 
                     get_template_part('template-parts/content/thumbnail/post', 'smallmini' );
                     ?>

@@ -4,7 +4,7 @@
 
         <div class="flex justify-center fade-in my-8 text-5xl">
             <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" data-aos-delay="100">
-                <a  class="hover:text-nndym-blue duration-300 transition ease-out" target="_blank" href="https://www.facebook.com/nndymcamp/"><i class="fab mx-1 fa-facebook-square  mb-2"></i></i></a>
+                <a  class="hover:text-nndym-blue duration-300 transition ease-out" target="_blank" href="https://www.facebook.com/officialnndym/"><i class="fab mx-1 fa-facebook-square  mb-2"></i></i></a>
             </div>
             <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" data-aos-delay="300">
                 <a  class="hover:text-nndym-blue duration-300 transition ease-out" target="_blank" href="https://www.instagram.com/officialnndym/?hl=en"><i class="fab mx-1 fa-instagram-square  mb-2"></i></a>
@@ -23,5 +23,6 @@
     
     
     <?php wp_footer(  ); ?>
+    <script>function handleURL(n){window.location.replace(n)}</script>
     </body>
 </html>
