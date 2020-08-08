@@ -19,10 +19,10 @@ $args = array(
             <?php wpp_get_mostpopular($args ); ?>
         </div>
         <div class="flex justify-center ml-auto fade-in">
-            <a  class="hover:text-nndym-blue duration-300 transition ease-out" target="_blank" href="https://www.facebook.com/officialnndym/"><i class="fab mx-1 fa-facebook-square text-2xl mb-2"></i></i></a>
-            <a  class="hover:text-nndym-blue duration-300 transition ease-out" target="_blank" href="https://www.instagram.com/officialnndym/?hl=en"><i class="fab mx-1 fa-instagram-square text-2xl mb-2"></i></a>
-            <a  class="hover:text-nndym-blue duration-300 transition ease-out" target="_blank" href="https://www.youtube.com/channel/UC8p4em51J4zPnumhHfGiADA"><i class="fab mx-1 fa-youtube-square text-2xl mb-2"></i></a>
-            <a  class="hover:text-nndym-blue duration-300 transition ease-out" target="_blank" href="https://twitter.com/nndym?lang=en"><i class="fab mx-1 fa-twitter-square  text-2xl mb-2"></i></i></a>
+            <a  class="hover:text-nndym-blue duration-300 transition ease-out" rel="noreferrer" target="_blank" href="https://www.facebook.com/officialnndym/"><i class="fab mx-1 fa-facebook-square text-2xl mb-2"></i></i></a>
+            <a  class="hover:text-nndym-blue duration-300 transition ease-out" rel="noreferrer" target="_blank" href="https://www.instagram.com/officialnndym/?hl=en"><i class="fab mx-1 fa-instagram-square text-2xl mb-2"></i></a>
+            <a  class="hover:text-nndym-blue duration-300 transition ease-out" rel="noreferrer" target="_blank" href="https://www.youtube.com/channel/UC8p4em51J4zPnumhHfGiADA"><i class="fab mx-1 fa-youtube-square text-2xl mb-2"></i></a>
+            <a  class="hover:text-nndym-blue duration-300 transition ease-out" rel="noreferrer" target="_blank" href="https://twitter.com/nndym?lang=en"><i class="fab mx-1 fa-twitter-square  text-2xl mb-2"></i></i></a>
         </div>
     </div>
 </div>
