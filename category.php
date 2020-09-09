@@ -19,7 +19,7 @@
                     <a href="<?php echo esc_url( get_permalink() ) ?>">
                         <?php the_title( '<h1 class="text-2xl font-montserrat hover:text-orange-600 transition ease-in-out duration-200">', '</h1>' ); ?>
                     </a>
-                    <a class="text-sm text-gray-500 hover:text-orange-600 md:text-base transition ease-in-out duration-200" href="<?php echo get_home_url( ).'/author/'. get_the_author_meta( 'display_name' ) ?>"><i class="fas fa-user mr-2"></i>by <?php echo get_the_author_meta( 'display_name' ) ?></a>
+                    <a class="text-sm text-gray-500 hover:text-orange-600 md:text-base transition ease-in-out duration-200" href="<?php echo get_home_url( ).'/author/'. get_the_author_meta( 'user_login' ) ?>"><i class="fas fa-user mr-2"></i>by <?php echo get_the_author_meta( 'display_name' ) ?></a>
                     <a class="text-sm text-gray-500 hover:text-orange-600 md:text-base ml-4 transition ease-in-out duration-200" href="<?php echo get_day_link( get_the_date( 'Y' ), get_the_date( 'm' ), get_the_date( 'd' )) ?>"><i class="fas fa-calendar-day mr-2"></i><?php echo get_the_date( 'Y/m/d' ) ?> </a>
                 </div>
                 </div>

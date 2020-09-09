@@ -6,7 +6,8 @@
             yoast_breadcrumb( '<p class="fade-in-bottom font-medium uppercase" id="breadcrumbs">','</p>' );
         }
     ?>
-    <?php the_archive_title( '<h1 class="fade-in-bottom uppercase text-red-700 text-3xl md:text-4xl lg:text-5xl font-medium">', '</h1>' ); ?>
+    <h1 class="fade-in-bottom uppercase text-red-700 text-3xl md:text-4xl lg:text-5xl font-medium"><?php single_cat_title( ); ?></h1>
+    <a class="border-nndym-blue border-2 rounded-sm py-4 transition ease-in-out duration-300 px-12 my-1 uppercase font-bold text-nndym-blue inline-block hover:text-white hover:bg-nndym-blue" href="<?php echo get_home_url( ).'/camps'?>"><i class="fas fa-campground mr-2"></i> See Camp Highlights</a>
     <div class="my-8">
         <?php if(have_posts(  )) : ?>
             <div class="grid md:grid-cols-4 gap-4">
