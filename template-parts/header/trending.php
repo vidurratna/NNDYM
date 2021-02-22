@@ -14,10 +14,6 @@ $args = array(
         <div class="text-sm inline-block">
             <h5 class="justify-center items-center" ><i class="fas fa-calendar-day text-lg mr-1"></i> <?php echo date("Y/m/d"); ?></h5>
         </div>
-        <div class="text-sm ml-4 hidden md:inline-block fade-in">
-            <h5 class="justify-center items-center font-roboto uppercase text-red-400 inline" ><i class="fas fa-fire text-lg mr-1"></i> Trending:</h5>
-            <?php wpp_get_mostpopular($args ); ?>
-        </div>
         <div class="flex justify-center ml-auto fade-in">
             <a  class="hover:text-nndym-blue duration-300 transition ease-out" rel="noreferrer" target="_blank" href="https://www.facebook.com/officialnndym/"><i class="fab mx-1 fa-facebook-square text-2xl mb-2"></i></i></a>
             <a  class="hover:text-nndym-blue duration-300 transition ease-out" rel="noreferrer" target="_blank" href="https://www.instagram.com/officialnndym/?hl=en"><i class="fab mx-1 fa-instagram-square text-2xl mb-2"></i></a>
